@@ -23,10 +23,13 @@
 `Open Arduino from Applications (you may need to allow it in System Preferences → Security & Privacy if it’s blocked).`
 
 **Analyse the program life cycle: setup() and loop() function**
-```
+setup() : Executes once when the Arduino starts or resets.
+Used for initializing variables, pin modes, libraries, or serial communication.
+
+loop() : Executes continuously after setup().
+It contains the main logic that keeps running as long as the board is powered
 
 
-```
 **Print `Hello World` in serial monitor.**
 - Open Arduino IDE
 - Launch the Arduino IDE on your computer.
